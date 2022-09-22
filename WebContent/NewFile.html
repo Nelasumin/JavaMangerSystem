@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gbk">
+<title>Insert title here</title>
+<style type="text/css">
+body
+{
+    font-size: small;
+    background-image: url('img/bg.jpg');
+    margin: auto;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+#main
+{
+    margin: auto;
+    width: 900px;
+    text-align: center;
+}
+#Logo
+{
+    margin: auto;
+    background-image: url('img/task_banner.gif');
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 884px;
+}
+#LoginMain
+{
+    margin: auto;
+    background-image: url('img/userLoginBg.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#login_table
+{
+    position: absolute;
+    top: 120px;
+    left: 219px;
+    height: 77px;
+    width: 394px;
+    color: #FFFFFF;
+    bottom: 103px;
+}
+.btn {
+    margin: auto;
+    text-align: center;
+	background-image:url('img/btn.jpg');
+	height:79px;
+	width: 92px;
+}
+</style>
+</head>
+<body>
+<div id="main">
+   <div id="Logo"></div>
+   <div id="LoginMain">
+     <form action="#" id="form1">
+         <div id="login_table">
+            <table>
+               <tr>
+                  <td>用户名</td>
+                  <td>
+                    <input type="text"/>
+                  </td>
+                  <td rowspan="3" colspan="3">
+                     <input type="button" class="btn"/>
+                  </td>
+               </tr>
+               <tr>
+                  <td>密码</td>
+                  <td>
+                    <input type="password" id="password"/>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                                        验证码
+                  </td>
+                  <td>
+                    <input type="text" id="TextBox3"/>
+                  </td>
+               </tr>
+            </table>
+         </div>
+     </form>
+   </div>
+</div>
+</body>
+</html>
